@@ -98,32 +98,32 @@ iframe {
 
 h1 {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h5 {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h6 {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 a {
@@ -269,7 +269,7 @@ li.purple .box-dropdown:after {
   z-index: 5000;
   right: 0;
   line-height: 20px;
-  top: 200%;
+  top: 0;
   padding-top: 13px !important;
   z-inex: 9999;
   overflow: hidden;
@@ -2219,7 +2219,7 @@ input[type="checkbox"]:checked + label.color-checkbox {
   margin-right: -5px;
 }
 
-.col-lg-fifth.subcategory {
+.subcategory {
   padding: 0 5px;
   margin-bottom: 30px;
 }
@@ -2410,6 +2410,8 @@ input[type="checkbox"]:checked + label.color-checkbox {
   background: #f7f7f7;
   overflow: hidden;
   padding: 10px 15px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .product-info h5 {
