@@ -5128,3 +5128,10 @@ input[type="checkbox"]:checked + label:before {
     margin: 1% !important;
 }
 }
+.logo img{
+	width: auto !important;
+    max-height: 90px !important;
+    height: auto !important;
+    padding: 5px !important;
+	
+}
