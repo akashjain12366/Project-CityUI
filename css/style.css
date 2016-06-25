@@ -5135,3 +5135,10 @@ input[type="checkbox"]:checked + label:before {
     padding: 5px !important;
 	
 }
+.profile-pic {
+	max-height:150px !important;
+	max-width:150px !important;
+	height:auto !important;
+	width:auto !important;
+	border-radius:1pc;
+}

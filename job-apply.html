@@ -13,6 +13,7 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,900,700italic,500italic' rel='stylesheet' type='text/css'>
 
   <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/perfect-scrollbar.css">
   <link rel="stylesheet" href="css/style.css">
@@ -647,7 +648,7 @@
                                     	<p>Date Of Birth*</p>
                                     </div>
                                     <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="YYYY-MM-DD">
+                                    	<input type="text" id="datepicker">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -685,7 +686,7 @@
                                     </div>	
                                 </div>
                                 <div class="row">
-									<div class="col-lg-12 col-md-12 col-sm-12">
+									<div class="col-lg-12 col-md-12 col-sm-12" style="text-align:right">
                                     	<input class="big" type="submit" value="Apply">
                                         <input class="big" type="reset" value="Cancel">
                                     </div>
@@ -1112,7 +1113,16 @@
   <script defer src="js/bootstrap.min.js"></script>
   <script src="js/main-script.js"></script>
 
-
+  <script src="js/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#datepicker").datepicker({
+        changeMonth: true,
+        changeYear: true,
+        "option": "slideDown"
+      });
+    });
+  </script>
 
 </body>
 
