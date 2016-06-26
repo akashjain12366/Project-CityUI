@@ -7,10 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Title -->
-  <title>City Next|Seller Register</title>
+  <title>City Next|Profile-Product-List-View-Single</title>
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,900,700italic,500italic' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -615,228 +619,76 @@
       </aside>
       <!-- /Sidebar -->
 
-     <!-- Main Content -->
+			<!-- Main Content -->
 				<section class="main-content col-lg-9 col-md-9 col-sm-9">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="carousel-heading no-margin">
-                                <h4>Register User</h4>
-                            </div>
-                            <div class="page-content">
-                                <div class="row">
-                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 align-right align-xs" >
-										<a href="register_user.html" title="Click Here To Register User/Customer Account">
-											<input type="submit" class="orange" value="User/Customer Account">
-										</a>
-                                    </div>
-									
-                                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 align-left align-xs" >
-										 <a href="register_seller.html" title="Click Here To Register Vendor/Seller Account">	
-											<input type="submit" class="blue" value="Vendor/Seller Account">
-										</a>
-                                    </div>
-                                </div>
-                            </div>
-                    	</div>
-                    </div>
-                    
-                    
-                    
-                    <div class="row">
-                    	
-                        <div class="col-lg-12 col-md-12 col-sm-12 register-account">
-                        	
-                            <div class="carousel-heading no-margin">
-                                <h4>Register Vendor/Seller Account</h4>
-                            </div>
-                            
-                            <div class="page-content">
-                            	<div class="row">
-                                	
-                                    <div class="col-lg-12 col-md-12 col-sm-12">
-                                    	<p><strong>Vendor/Seller Information</strong></p>
-                                    </div>
-                                    
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>First name*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter First Name">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Last Name*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Last Name">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Business/Firm/Brand Name*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Firm Name">
-                                    </div>	
-                                </div>
-								<!--div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Profession*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<select class="chosen-select">
-                                        	<option selected disabled>Select Profession</option>
-                                            <option>Student</option>
-                                            <option>Self Employed</option>
-                                            <option>Bussiness</option>
-                                            <option>Job</option>
-                                            <option>House Wife</option>
-                                        </select>
-                                    </div>
-                                </div-->
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Contact Number*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Contact Number">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Email ID*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Mail ID">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Password*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Password">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Confirm Password*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Confirm Password">
-                                    </div>	
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Select Security Question*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<select class="chosen-select">
-                                        	<option selected disabled>Select Security Question</option>
-                                            <option>Your father's name?</option>
-                                            <option>Your mother's name?</option>
-                                            <option>Your pet's name?</option>
-                                            <option>Your date of birth?</option>
-                                            <option>Your first school?</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Answer*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Security Question Answer">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Address*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<!--input type="text" placeholder="Enter Address"-->
-										<textarea rows="2" cols="2" placeholder="Enter Address"> </textarea>
-                                    </div>	
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Select State*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<select class="chosen-select">
-                                        	<option selected disabled>Select State</option>
-											<option value="4">Andaman &amp; Nicobar Islands</option>
-											<option value="35">Tamil Nadu</option>
-											<option value="36">Telangana</option>
-											<option value="37">Tripura</option>
-											<option value="38">Uttar Pradesh</option>
-											<option value="39">Uttarakhand</option>
-											<option value="40">West Bengal</option>											
-                                        </select>
-                                    </div>
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Select City*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<select class="chosen-select">
-                                        	<option selected disabled>Select City</option>
-											<option value="4">Andaman &amp; Nicobar Islands</option>
-											<option value="35">Tamil Nadu</option>
-											<option value="36">Telangana</option>
-											<option value="37">Tripura</option>
-											<option value="38">Uttar Pradesh</option>
-											<option value="39">Uttarakhand</option>
-											<option value="40">West Bengal</option>											
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Pin Code*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="text" placeholder="Enter Pin">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>Profile Image*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="file" >
-                                    </div>	
-                                </div>
-                                
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4">
-                                    	<p>I have read and agree to the <a href="#"><b> Term & Conditions </b> </a></p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8">
-                                    	<input type="checkbox" id="i-agree-to-terms"><label for="i-agree-to-terms"></label>
-                                    </div>	
-                                </div>
-                                <div class="row">
-									<div class="col-lg-12 col-md-12 col-sm-12" style="text-align:right">
-                                    	<input class="big" type="submit" value="Register">
-                                        <input class="big" type="reset" value="Cancel">
-                                    </div>
-                                </div>
-                            </div>
-                            
-                    	</div>
-                          
-                    </div>
-                        
-                    
+					<div class="row">
+						<div class="carousel-heading no-margin">
+							<h4>PRODUCT >> VIEW</h4>
+						</div>
+						<br />
+						
+						<div class="row">
+										<div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="carousel-heading">
+												<h4>Shop Avenue Casual Printed Women's Kurti</h4>
+											</div>
+											
+											<table class="orderinfo-table">
+												<tr>
+													<th>Product</th>
+													<td>Shop Avenue Casual Printed Women's Kurti</td>
+												</tr>												
+												<tr>
+													<th>Category</th>
+													<td>APPARELS</td>
+												</tr>												
+												<tr>
+													<th>Sub Category</th>
+													<td>Women</td>
+												</tr>												
+												<tr>
+													<th>Version</th>
+													<td>Not Set</td>
+												</tr>												
+												<tr>
+													<th>Old Price</th>
+													<td></td>
+												</tr>
+												<tr>
+													<th>New Price</th>
+													<td>600</td>
+												</tr>												
+												<tr>
+													<th>Quantity Available</th>
+													<td>8</td>
+												</tr>												
+												<tr>
+													<th>Description</th>
+													<td>Pure Cotton, Trendy and latest regular, official, comfortwear, soft cotton floral printed regular, short and anarkali fit kurti collection elegant and comfortable for every season.</td>
+												</tr>												
+												<tr>
+													<th>Rating</th>
+													<td>0</td>
+												</tr>
+												<tr>
+													<th>Status</th>
+													<td>Active</td>
+												</tr>												
+												<tr>
+													<th>Image</th>
+													<td>151201612158-0.jpg</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								
+						
+					</div>
+	
 				</section>
-				<!-- /Main Content -->
+			<!-- /Main Content -->
                 
-
+	  
     </div>
     <!-- /Content -->
 

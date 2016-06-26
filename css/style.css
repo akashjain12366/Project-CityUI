@@ -5142,3 +5142,9 @@ input[type="checkbox"]:checked + label:before {
 	width:auto !important;
 	border-radius:1pc;
 }
+.pro-list{
+	max-height:70px !important;
+	max-width:70px !important;
+	height:auto !important;
+	width:auto !important;
+}
