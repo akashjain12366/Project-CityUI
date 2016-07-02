@@ -7,12 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Title -->
-  <title>City Next|Profile-Product-Add</title>
+  <title>City Next|Todays Offer</title>
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,900,700italic,500italic' rel='stylesheet' type='text/css'>
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/perfect-scrollbar.css">
   <link rel="stylesheet" href="css/style.css">
@@ -42,14 +43,14 @@
     <!-- Header -->
     <header class="row">
 
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="col-lg-12 col-md-12 col-sm-12">
 
         <!-- Top Header -->
         <div id="top-header">
 
           <div class="row">
 
-            <nav id="top-navigation" class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+            <nav id="top-navigation" class="col-lg-7 col-md-7 col-sm-7">
               <ul class="pull-left">
                 <li><a href="create_an_account.html">My Account</a></li>
                 <li><a href="orders_list.html">List Order</a></li>
@@ -59,7 +60,7 @@
               </ul>
             </nav>
 
-            <nav class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <nav class="col-lg-5 col-md-5 col-sm-5">
               <ul class="pull-right">
                 <li class="purple"><a href="#"><i class="icons icon-user-3"></i> Login</a>
                   <ul id="login-dropdown" class="box-dropdown">
@@ -110,11 +111,11 @@
 
           <div class="row">
 
-            <div id="logo" class="logo col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div id="logo" class="logo col-lg-4 col-md-4 col-sm-4 col-xs-6">
               <a href="home_v1.html"><img src="img/logo.png" alt="Logo"></a>
             </div>
 
-            <nav id="middle-navigation" class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <nav id="middle-navigation" class="col-lg-8 col-md-8 col-sm-8 col-xs-6">
               <ul class="pull-right">
                 <li class="blue">
                   <a href="wishlist.html"><i class="icons icon-heart-empty"></i>2 Items</a>
@@ -305,7 +306,7 @@
 
           <div id="search-bar">
 
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               <table id="search-bar-table">
                 <tr>
                   <td class="search-column-1">
@@ -314,7 +315,6 @@
                 </tr>
               </table>
             </div>
-			<hr />
             <div id="search-button">
               <input type="submit" value="">
               <i class="icons icon-search-1"></i>
@@ -340,7 +340,7 @@
         <!-- Categories -->
         <div class="row sidebar-box purple">
 
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
 
             <div class="sidebar-box-heading">
               <i class="icons icon-folder-open-empty"></i>
@@ -617,136 +617,90 @@
       <!-- /Sidebar -->
 
      <!-- Main Content -->
-				<section class="main-content col-lg-9 col-md-9 col-sm-9  col-xs-12">
+				<section class="main-content col-lg-9 col-md-9 col-sm-9">
                     
                     <div class="row">
                     	
-                        <div class="col-lg-12 col-md-12 col-sm-12  col-xs-12 register-account">
+                        <div class="col-lg-12 col-md-12 col-sm-12 register-account">
                         	
                             <div class="carousel-heading no-margin">
-                                <h4>PRODUCT >> CREATE</h4>
+                                <h4>TODAY'S OFFER >> CREATE</h4>
                             </div>
                             
                             <div class="page-content">
+							<h4> Packages </h4>
+							<table class="table">
+							  <thead>
+								<tr>
+								  <th>Days</th>
+								  <th>Price(In INR)</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>5 Days</td>
+								  <td>Rs. 500</td>
+								</tr>
+								<tr>
+								  <td>10 Days</td>
+								  <td>Rs. 1000</td>
+								</tr>	
+							  </tbody>
+							</table>
+						
+
                             	<div class="row">                                	
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
                                     	<p><strong>Fields with * are required.</strong></p>
                                     </div>                                    
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Main Category*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<select class="chosen-select">
-                                        	<option  selected disabled>Select Category</option>
-                                            <option >Category 1 </option>
-                                            <option>Category 2 </option>
-                                            <option>Category 3 </option>
-                                            <option>Category 4 </option>
-                                            <option>Category 5 </option>
-                                        </select>
-                                    </div>
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Sub Category*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<select class="chosen-select">
-                                        	<option selected  disabled>Select Sub Category</option>
-                                            <option>Sub Category 1 </option>
-                                            <option>Sub Category 2 </option>
-                                            <option >Sub Category 3 </option>
-                                            <option>Sub Category 4 </option>
-                                            <option>Sub Category 5 </option>
-                                        </select>
-                                    </div>
-                                </div>								
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Product*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<input type="text" placeholder="Product Name">
-                                    </div>	
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Version Code*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<select class="chosen-select">
-                                        	<option selected disabled>Select Version Code</option>
-                                            <option>Version 1 </option>
-                                            <option>Version 2 </option>
-                                        </select>
-                                    </div>
                                 </div>	
 								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Product Image 1</p>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                    	<p>Product*</p>
                                     </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<input type="file" >
-                                    </div>
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Product Image 2</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<input type="file" >
-                                    </div>
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Product Image 3</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<input type="file" >
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Old Price</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<input type="text" value="">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>New Price*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<input type="text" value="">
-                                    </div>	
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Quantity Available*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    	<input type="text" value="">
-                                    </div>	
-                                </div>
-								<div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    	<p>Status*</p>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
                                     	<select class="chosen-select">
-                                        	<option selected  disabled>Select Status</option>
-                                            <option >Active</option>
-                                            <option>Inactive </option>
+                                        	<option  disabled>Select Product</option>
+                                            <option selected>Product 1 </option>
+                                            <option>Product 2 </option>
+                                            <option>Product 3 </option>
+                                            <option>Product 4 </option>
+                                            <option>Product 5 </option>
                                         </select>
                                     </div>
-                                </div>
+                                </div>		
+								<div class="row">
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                    	<p>Offer in days*</p>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                    	<select class="chosen-select">
+                                        	<option  disabled>Select Offfer</option>
+                                            <option selected>1 Day </option>
+                                            <option>5 Days</option>
+                                            <option>10 Days</option>
+                                        </select>
+                                    </div>
+                                </div>					
                                 <div class="row">
-									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:right">
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                    	<p>Amount*</p>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8">
+                                    	<input type="text" value="">
+									</div>	
+                                </div>
+								<div class="row">
+									<div class="col-lg-4 col-md-4 col-sm-4">
+									  <p>Start Date*</p>
+									</div>
+									<div class="col-lg-8 col-md-8 col-sm-8">
+									  <input type="text" id="datepicker">
+									</div>
+								</div>
+                                <div class="row">
+									<div class="col-lg-12 col-md-12 col-sm-12" style="text-align:right">
                                     	<input class="big" type="submit" value="Create">
-                                        <input class="big" type="reset" value="Cancel">
                                     </div>
                                 </div>
                             </div>
@@ -1170,7 +1124,25 @@
   <script defer src="js/bootstrap.min.js"></script>
   <script src="js/main-script.js"></script>
 
-
+  <script src="js/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#datepicker").datepicker({
+        changeMonth: true,
+        changeYear: true,
+        "option": "slideDown"
+      });
+    });
+  </script>
+    <script>
+    $(function () {
+      $("#datepicker1").datepicker({
+        changeMonth: true,
+        changeYear: true,
+        "option": "slideDown"
+      });
+    });
+  </script>
 
 </body>
 
